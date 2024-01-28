@@ -248,21 +248,23 @@ section .container .section .second {
   margin-bottom: 20px;
 }
 
+
+
 section .container .section a {
   background-color: #bd0808;
   color: #fff;
   border-radius: 5px;
   display: flex;
-  width: fit-content;
-  height: 100%;
-  font-size: 20px;
   align-items: center;
-  padding: 0px 10px;
+  justify-content: center;
+  width: 73%;
+  height: 100%;
+  font-size: 16px;
+  align-items: center;
+  padding: 10px;
 }
 
-section .container .section a i {
-  color: #fff;
-}
+
 
 .banner {
   margin-top: 25px;
@@ -328,7 +330,7 @@ section .container .section a i {
 
 .middle .container .card {
   width: 300px;
-  height: 480px;
+  height: 490px;
   border: 1px solid #b8b7b7;
   margin: 10px 0 10px 20px;
 }
@@ -353,16 +355,19 @@ section .container .section a i {
 }
 
 .middle .container .card ul {
-  margin: 10px 0 0 10px;
+  margin: 1px 0px 0 10px;
+  padding: 10px;
 }
 
 .middle .container .card ul li {
   margin-top: 5px;
-  color: #cdcccc;
+  color: #bfbfbf;
+  font-size: 13px;
 }
 
 .middle .container .card .price {
   display: flex;
+  align-items: center;
 }
 
 .middle .container .card .price p {
@@ -374,7 +379,7 @@ section .container .section a i {
 .middle .container .card .price i {
   color: #bd0808;
   font-size: 20px;
-  margin: 10px 0 0 130px;
+  margin: 10px 0 0 190px;
 }
 
 .oppurtinity {
