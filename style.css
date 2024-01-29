@@ -164,7 +164,7 @@ img {
 }
 
 .header .menu ul li {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .header .menu ul li a {
@@ -280,6 +280,7 @@ section .container .section a {
   justify-content: center;
   flex-direction: column;
   margin: 0 7px 0 7px;
+  flex-shrink: 1;
 }
 
 .banner .container .budget img {
