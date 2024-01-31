@@ -761,3 +761,111 @@ footer .container .bottom ul li a {
   color: #bd0808;
   width: 200px;
 }
+
+.container .boxes-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxes {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b8b7b7;
+  width: 600px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.boxes p {
+  color: #4f4f4f;
+  line-height: 1.5em;
+}
+
+.container .last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container .center {
+  width: 600px;
+  border: 1px solid #b8b7b7;
+  border-radius: 5px;
+  padding: 15px;
+  height: 400px;
+}
+
+.container .center .log {
+  display: flex;
+}
+
+.container .center .log button {
+  width: 300px;
+  background-color: #bd0808;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.container .center .log button.tton {
+  width: 300px;
+  background-color: #fff;
+  color: #bd0808;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border: 1px solid #bd0808;
+  border-radius: 5px;
+}
+
+.container .last .center .posta {
+  margin-top: 30px;
+}
+
+.container .last .center .posta input {
+  width: 570px;
+  border: 1px solid #b8b7b7;
+  padding-left: 10px;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 7px;
+}
+
+.container .last .center .sign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container .last .center .sign button {
+  background-color: #bd0808;
+  color: #fff;
+  padding: 15px;
+  width: 600px;
+  border-radius: 5px;
+}
+
+.container .last .center .href {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .last .center .href a {
+  color: #b8b7b7;
+  text-decoration: underline;
+}
+
+
+
