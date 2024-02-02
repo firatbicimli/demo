@@ -944,6 +944,10 @@ footer .container .bottom ul li a {
   flex-wrap: wrap;
 }
 
+.best .container .card-one a {
+  color: #000;
+}
+
 .best .container .card {
   width: 300px;
   height: 490px;
