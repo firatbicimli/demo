@@ -1004,5 +1004,95 @@ footer .container .bottom ul li a {
   margin: 10px 0 0 190px;
 }
 
+.basket {
+  margin-top: 30px;
+}
+
+.basket .container {
+  display: flex;
+  gap: 10px
+  ;
+}
+
+.basket .container .basket-one {
+  width: 650px;
+  border-radius: 5px;
+  height: 700px;
+  background-color: #b8b7b7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basket .container .basket-two {
+  background-color: #fff;
+  border: 1px solid #656565;
+  width: 650px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.basket .container .basket-two ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.basket .container .basket-two button {
+  border: 1px solid #bd0808;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.basket-three {
+  margin-top: 20px;
+  width: 690px;
+  border: 1px solid #656565;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.basket-three ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basket-three ul li {
+  margin-left: 45px;
+}
+
+.basket-three ul li i, span {
+  font-size: 20px;
+  color: #000;
+  margin-left: 5px;
+}
+
+.basket-four {
+  margin-top: 30px;
+  border: 1px solid #656565;
+  display: flex;
+  width: 650px;
+}
+
+.basket-four .help-center {
+  background-color: #bd0808;
+  width: 300px;
+}
+
+
+.basket-four .faq {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 
 
