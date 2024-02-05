@@ -1010,8 +1010,12 @@ footer .container .bottom ul li a {
 
 .basket .container {
   display: flex;
-  gap: 10px
-  ;
+  gap: 10px;
+}
+
+.basket .container .product-image {
+  display: flex;
+  flex-direction: column;
 }
 
 .basket .container .basket-one {
@@ -1022,6 +1026,12 @@ footer .container .bottom ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.basket .container .product-bottom-galery {
+  background-color: red;
+  width: 650px;
+  height: 100px;
 }
 
 .basket .container .basket-two {
