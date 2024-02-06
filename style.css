@@ -1108,11 +1108,11 @@ footer .container .bottom ul li a {
 
 .faq-header-top .container {
   margin: 0 auto;
-  width: 1300px;
+  width: 1400px;
 }
 
 .faq-header{
-  font-size: 42px;
+  font-size: 32px;
   border-bottom: 1px dotted #ccc;
   padding: 24px;
 }
@@ -1184,6 +1184,17 @@ footer .container .bottom ul li a {
 
 .panel {
   display: none;
+}
+
+.similar {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.similar h3 {
+  font-size: 20px;
 }
 
 
