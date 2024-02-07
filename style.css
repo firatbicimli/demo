@@ -1199,8 +1199,12 @@ footer .container .bottom ul li a {
 }
 
 .card-wrapper{
-  max-width: 1100px;
+  margin-top: 30px;
+}
+
+.card-wrapper .container {
   margin: 0 auto;
+  width: 1300px;
 }
 img{
   width: 100%;
@@ -1249,7 +1253,6 @@ img{
   bottom: 0;
   height: 4px;
   width: 80px;
-  background: #12263a;
 }
 .product-link{
   text-decoration: none;
@@ -1273,7 +1276,7 @@ img{
   font-weight: 600;
   color: #252525;
 }
-.product-price{
+.product-massage{
   margin: 1rem 0;
   font-size: 1rem;
   font-weight: 700;
@@ -1288,21 +1291,21 @@ img{
 .new-price span{
   color: #256eff;
 }
-.product-detail h2{
+.product-lastone h2{
   text-transform: capitalize;
   color: #12263a;
   padding-bottom: 0.6rem;
 }
-.product-detail p{
+.product-lastone p{
   font-size: 0.9rem;
   padding: 0.3rem;
   opacity: 0.8;
 }
-.product-detail ul{
+.product-lastone ul{
   margin: 1rem 0;
   font-size: 0.9rem;
 }
-.product-detail ul li{
+.product-lastone ul li{
   margin: 0;
   list-style: none;
   background: url(https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/checked.png) left center no-repeat;
@@ -1312,14 +1315,14 @@ img{
   font-weight: 600;
   opacity: 0.9;
 }
-.product-detail ul li span{
+.product-lastone ul li span{
   font-weight: 400;
 }
-.purchase-info{
+.purchase-bottom{
   margin: 1.5rem 0;
 }
-.purchase-info input,
-.purchase-info .btn{
+.purchase-bottom input,
+.purchase-bottom .btn{
   border: 1.5px solid #ddd;
   border-radius: 25px;
   text-align: center;
@@ -1328,20 +1331,20 @@ img{
   margin-right: 0.2rem;
   margin-bottom: 1rem;
 }
-.purchase-info input{
+.purchase-bottom input{
   width: 60px;
 }
-.purchase-info .btn{
+.purchase-bottom .btn{
   cursor: pointer;
   color: #fff;
 }
-.purchase-info .btn:first-of-type{
+.purchase-bottom .btn:first-of-type{
   background: #256eff;
 }
-.purchase-info .btn:last-of-type{
+.purchase-bottom .btn:last-of-type{
   background: #f64749;
 }
-.purchase-info .btn:hover{
+.purchase-bottom .btn:hover{
   opacity: 0.9;
 }
 .social-links{
@@ -1363,13 +1366,13 @@ img{
   transition: all 0.5s ease;
 }
 .social-links a:hover{
-  background: #000;
+  background: #bd0808;
   border-color: transparent;
   color: #fff;
 }
 
 @media screen and (min-width: 992px){
-  .card{
+  .kard{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 1.5rem;
