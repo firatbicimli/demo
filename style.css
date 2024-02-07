@@ -1200,6 +1200,7 @@ footer .container .bottom ul li a {
 
 .card-wrapper{
   margin-top: 30px;
+  background-color: #efefef;
 }
 
 .card-wrapper .container {
@@ -1236,6 +1237,7 @@ img{
   opacity: 0.8;
 }
 .product-content{
+  margin-top: 30px;
   padding: 2rem 1rem;
 }
 .product-title{
