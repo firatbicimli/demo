@@ -306,6 +306,7 @@ section .container .section a {
   display: flex;
 }
 
+
 .chance .container i {
   font-size: 40px;
   color: #bd0808;
@@ -1223,6 +1224,8 @@ img{
 }
 .img-select{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img-item{
   margin: 0.3rem;
@@ -1238,6 +1241,8 @@ img{
 .product-content{
   margin-top: 30px;
   padding: 2rem 1rem;
+ 
+  margin-left: 30px;
 }
 .product-title{
   font-size: 2rem;
@@ -1286,7 +1291,7 @@ img{
   font-weight: 400;
 }
 .last-price span{
-  color: #f64749;
+  color: #bd0808;
   text-decoration: line-through;
 }
 .new-price span{
