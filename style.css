@@ -304,6 +304,8 @@ section .container .section a {
 
 .chance .container {
   display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 
@@ -314,6 +316,7 @@ section .container .section a {
 
 .chance .container .new {
   margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 .chance .container .new .year {
